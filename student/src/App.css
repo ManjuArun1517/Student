@@ -1,0 +1,33 @@
+.slick-slide>div{
+  margin:0 10px;
+}
+.navlinnk{
+  transform:scaleX(0);
+  transform-origin: right;
+  text-decoration: underline;
+}
+.navlink:hover{
+  font-weight: 400px;
+  transform: scaleX(1);
+  transform-origin: left; 
+}
+@media (min-width:767) and (max-width:990px){
+  .home1{
+      height: 50px;
+      width: 100%;
+  }
+  .home1 h1{
+    font-size: larger;
+    position: absolute;
+  }
+  .home1nav {
+    margin-left: auto;
+  }
+  .home1  Nav Form {
+    width: 150px;
+    height: 30px;
+  }
+  .dashboad1{
+    display: none;
+  }
+} 
